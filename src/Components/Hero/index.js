@@ -19,7 +19,7 @@ const Hero = () => {
         <HeroH1>Golf Made Easy</HeroH1>
         <HeroP>Start today changing the fundementals of your game</HeroP>
         <HeroBtnWrapper>
-          <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+          <Button to='/about' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
             Get Started {hover ? <ArrowForward /> : <ArrowRight/>}
           </Button>
         </HeroBtnWrapper>

@@ -22,23 +22,23 @@ const Navbar = ({toggle}) => {
               >About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='discover'
+              <NavLinks to='/lessons'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Discover</NavLinks>
+              >Lessons</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='services'
+              <NavLinks to='/methodology'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Services</NavLinks>
+              >Methodology</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='signup'
+              <NavLinks to='/testimonials'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Sign Up</NavLinks>
+              >Testimonials</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+            <NavBtnLink to='/contact'>Contact</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

@@ -4,7 +4,8 @@ export const InfoContainer = styled.div`
   color: #fff;
   background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
   @media screen and  (max-width: 768px) {
-    padding: 100px 0;
+    padding-top: 50px;
+    padding-bottom: 600px;
   }
 `
 export const InfoWrapper = styled.div`
@@ -77,8 +78,14 @@ export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
 `;
+
 export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding-right: 0;
+  }
 `;

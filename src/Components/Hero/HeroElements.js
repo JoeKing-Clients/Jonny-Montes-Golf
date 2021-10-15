@@ -74,7 +74,7 @@ export const HeroP = styled.p`
     font-size: 18px
   }
 `
-export const HeroBtnWrapper = styled.div`
+export const HeroBtnWrapper = styled.a`
   margin-top: 32px;
   display: flex;
   flex-direction: column;

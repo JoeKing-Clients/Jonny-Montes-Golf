@@ -1,12 +1,10 @@
 import React, {useState} from 'react'
 import Sidebar from '../Components/Sidebar';
 import Navbar from '../Components/Navbar';
-import Hero from '../Components/Hero';
-import Info from '../Components/Info';
 import Footer from '../Components/Footer';
-import { homeData } from '../Components/Info/Data';
+import Info from '../Components/Info';
 
-const Home = () => {
+const Methodology = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     const toggle = () => {
@@ -17,11 +15,11 @@ const Home = () => {
         <>
         <Sidebar isOpen={isOpen} toggle ={toggle}/>
         <Navbar toggle={toggle}/>
-        <Hero />
-        <Info {...homeData}/>
+        <Info />
         <Footer />
+
         </>
     )
 }
 
-export default Home
+export default Methodology
